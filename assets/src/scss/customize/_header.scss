@@ -1,0 +1,52 @@
+.menu-item, li.page_item{
+  @apply uppercase inline-block  font-semibold text-xs tracking-wide sm:mr-6;
+  &:last-child{
+    @apply mr-0;
+  }
+}
+
+.menu-mobile{
+  .menu-item, li.page_item{
+    @apply mb-4;
+    &:last-child{
+      @apply mb-0;
+    }
+  }
+}
+
+li.mobile-menu-item{
+  @apply block  font-normal text-xs tracking-wide mb-3;
+  &:last-child{
+    @apply mb-0;
+  }
+  a{
+    @apply font-normal;
+  }
+}
+
+.menu-title.active {
+  @apply text-black border-b border-black;
+}
+
+.menu-footer{
+  .menu-item, li.page_item{
+    @apply block  font-normal text-xs tracking-wide mb-4;
+    &:last-child{
+      @apply mb-0;
+    }
+    a{
+      @apply text-gray-600;
+    }
+  }
+}
+
+//head mini cart
+.widget_shopping_cart{
+  @apply leading-none;
+  span{
+    @apply align-text-bottom;
+  }
+  .widget_shopping_cart_content{
+    @apply leading-[0];
+  }
+}

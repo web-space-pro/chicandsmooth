@@ -1,0 +1,26 @@
+{
+  "name": "chicandsmooth",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "prod": "mix --production"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.7",
+    "jquery": "^3.5.1",
+    "postcss": "^7.0.38",
+    "rellax": "^1.12.1",
+    "slick-animation": "^0.3.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "@tailwindcss/postcss": "^4.1.3",
+    "laravel-mix": "^6.0.49",
+    "postcss": "^8.5.3",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.80.6",
+    "sass-loader": "^12.6.0",
+    "tailwindcss": "^4.1.3"
+  }
+}
