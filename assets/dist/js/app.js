@@ -8,10 +8,10 @@
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 try {
-  __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+  window.jQuery = window.$ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
   //require("./vendors");
   // require("./modules/input_mask");
-  // require("./modules/menu");
+  __webpack_require__(/*! ./modules/menu */ "./assets/src/js/modules/menu.js");
   // require("./modules/slider");
   // require("./modules/rellax");
   // // require("./modules/generall");
@@ -20,6 +20,21 @@ try {
 } catch (e) {
   console.log('JS ERROR!!!', e);
 }
+
+/***/ }),
+
+/***/ "./assets/src/js/modules/menu.js":
+/*!***************************************!*\
+  !*** ./assets/src/js/modules/menu.js ***!
+  \***************************************/
+/***/ (() => {
+
+$(document).ready(function () {
+  $('#burger-icon').click(function (e) {
+    $('#burger-icon, .mobile-menu, .my-head').toggleClass('open');
+    $('body').toggleClass('ov-hidden');
+  });
+});
 
 /***/ }),
 

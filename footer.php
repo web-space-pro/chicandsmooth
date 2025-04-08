@@ -17,7 +17,7 @@
         <div class="pt-10 grid gap-4 sm:gap-10 grid-cols-2">
             <div>
                 <nav class="" role="navigation">
-                    <?php footer_nav(); ?>
+                    <?php //footer_nav(); ?>
                 </nav>
             </div>
             <div class="text-right">

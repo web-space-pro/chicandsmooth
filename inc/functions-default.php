@@ -1,6 +1,6 @@
 <?php
 
-show_admin_bar( false );
+show_admin_bar( true );
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *

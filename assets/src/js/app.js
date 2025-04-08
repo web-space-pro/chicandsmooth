@@ -1,8 +1,8 @@
 try {
-    require('jquery');
+    window.jQuery = window.$ = require('jquery');
     //require("./vendors");
     // require("./modules/input_mask");
-    // require("./modules/menu");
+    require("./modules/menu");
     // require("./modules/slider");
     // require("./modules/rellax");
     // // require("./modules/generall");
