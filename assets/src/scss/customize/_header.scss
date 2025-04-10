@@ -1,7 +1,7 @@
 .my-head{
-  @apply bg-white-40;
+  @apply bg-white-50;
   .mobile-nav{
-    @apply absolute left-0 right-0 w-full  bg-white-20 rounded-br-3xl rounded-bl-3xl overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0;
+    @apply absolute left-0 right-0 w-full  bg-white-50 rounded-br-3xl rounded-bl-3xl overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0;
     .menu-item, li.page_item{
       @apply block transition-none duration-0 mb-4;
       &.menu-item-has-children{
@@ -20,7 +20,7 @@
 
   }
   &.open{
-    @apply bg-white-20;
+    @apply bg-white-50;
     .mobile-nav{
       @apply max-h-[500px] opacity-100;
     }

@@ -5,4 +5,26 @@
   .bg-2{
     @apply bg-white-20;
   }
+  .hs-dvh{
+    min-height: calc(100dvh - 190px);
+    height: 100%;
+  }
+  
+  .bg-lines{
+    background-image: url('/wp-content/uploads/2025/04/pattern.svg');
+  }
+  .bg-lines-white{
+    background-image: url('/wp-content/uploads/2025/04/pattern-white.svg');
+  }
+  
+  .panel-hidden {
+    display: none;
+  }
+  .radial-bg{
+    &:before{
+      @apply w-full h-full block z-[1];
+      content: '';
+      background: radial-gradient(50% 50% at 50% 50%, rgb(230, 240, 238) 0%, rgb(230, 240, 238) 100%);
+    }
+  }
 }

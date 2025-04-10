@@ -18,9 +18,9 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class('flex flex-col min-h-dvh antialiased bg-white-40 text-green-20 font-geologica font-extralight text-sm/7'); ?>>
+<body <?php body_class('flex flex-col min-h-dvh antialiased bg-white-50 text-green-20 font-geologica font-extralight text-sm/6'); ?>>
 <?php wp_body_open(); ?>
-<header class="my-head max-w-full-client-width px-4 sm:px-6 top-0 sticky  z-40 w-full backdrop-blur-md">
+<header class="my-head max-w-full-client-width px-4 lg:px-[4.5vmax] sm:px-6 top-0 sticky  z-40 w-full backdrop-blur-md">
     <div class="flex justify-between gap-4 items-center flex-wrap w-full py-4">
         <div class="xl:basis-5/12 hidden lg:flex  justify-start">
             <nav class="flex flex-row" role="navigation">
@@ -33,7 +33,7 @@
         <div class="xl:basis-5/12 flex justify-end items-center">
             <div class="hidden xs:flex items-center gap-10 text-green-20 font-normal text-base">
                 <a href="tel:+971 55 459 6070" class="inline-flex items-center">
-                   +971 55 459 6070
+                    +971 55 459 6070
                 </a>
                 <a class="btn --icon" href="#" target="_self">
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
